@@ -1,0 +1,13 @@
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100%; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.tblTD1{
+	font-size : 16px;
+	background : #d2d6de;
+	text-align: right;
+	vertical-align: middle !important;
+}
